@@ -27,12 +27,107 @@
 /* Clases Contenedor 3 Columnas */
 .content-container{
     background-color: transparent;
-    width: 100vmin;
+    width: 100%;
     height: 90%;
     border: 4px solid white;
     display: flex;
 }
 
+/* Estilos Vista Tablero */
+.game-content-container{
+    background-color: transparent;
+    width: 100%;
+    height: 98%;
+    border: 4px solid white;
+    margin: 10px;
+}
+
+.section-game-players-container{
+    width: 100%;
+    height: 18%;
+    display: flex;
+}
+
+.game-player-container{
+    height: 90%;
+    width: 50%;
+    border: 3px solid white;
+    margin: 5px;
+    display: flex;
+}
+
+.game-player-image{
+    height: 90%;
+    width: 40%;
+    margin: 5px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-player{
+    width: 90%;
+    height: 90%;
+}
+
+.game-player-data{
+    height: 90%;
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.name-player{
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.play-number{
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.active-play{
+    color: gold;
+    border-color: gold;
+}
+
+.tablero-container{
+    width: 98%;
+    height: 80%;
+    margin: 5px;
+}
+
+.tablero{
+    width: 100%;
+    height: 100%;
+}
+
+.fila-tablero{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+
+.columna-tablero{
+    width: 33%;
+    height: 95%;
+    margin: 5px;
+    border: 3px solid white;
+}
+
+.img-ficha{
+    width: 90%;
+    height: 90%;
+    margin: 5px;
+}
 
 /* Vista Ganador Estilos */
 .justify{
@@ -118,6 +213,12 @@
     /* Estilos Media Query Vista Ganador */
     .info-result{
         font-size: 2em;
+    }
+
+    .gif-container{
+        width: 50%;
+        position: relative;
+        left: 25%;
     }
 
     .btn-inicio{
