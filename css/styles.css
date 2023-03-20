@@ -11,3 +11,85 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Vista Principal */
+.main-container{
+    background-image: url("../img/bg-harrypotter.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clases Contenedor 3 Columnas */
+.content-container{
+    background-color: transparent;
+    width: 100vmin;
+    height: 90%;
+    border: 4px solid white;
+    display: flex;
+}
+
+
+/* Vista Ganador Estilos */
+.justify{
+    justify-content: center;
+    border: none;
+}
+
+.result-container{
+    width: 90%;
+    height: 100%;
+    border: 3px solid white;
+}
+
+.info-result{
+    font-family: 'harry_pregular';
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    width: 95%;
+    height: 20%;
+    margin-left: 8px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif-container{
+    width: 95%;
+    height: 60%;
+    margin: 5px;
+    border: 2px solid white;
+}
+
+.giff-winner{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-inicio-container{
+    width: 95%;
+    height: 10%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-inicio{
+    width: 175px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 1em;
+}
+
+.btn-inicio:hover{
+    background-color: #444444;
+    color: white;
+}
