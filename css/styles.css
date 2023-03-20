@@ -1,0 +1,13 @@
+/* Clases Principales */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('../fonts/harryp__-webfont.woff2') format('woff2'),
+         url('../fonts/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
