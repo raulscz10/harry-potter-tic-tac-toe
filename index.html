@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tic-Tac-Toe: Proyecto 3</title>
+</head>
+<body>
+    <!-- Contenedor Principal-->
+    <div class="main-container height-index">
+        <!-- Contedor Con las tres Columnas-->
+        <div class="content-container">
+            <div class="center-container">
+                <div class="title-container">
+                    <h1 class="title">TIC TAC TOE <span class="center">Harry Potter</span></h1>
+                </div>
+                <div class="conf-party-container">
+                    <button id="btn-play" name="btn-play" class="btn-play">JUGAR PARTIDA</button>
+                </div>
+            </div>
+        </div>
+        <!-- HTML Del Modal Box -->
+        <div id="myModal-Crear-Partida" class="modal">
+            <!-- Contenido Del Modal -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="conf-game-container">
+                    <div class="title-conf-game">
+                        <h1 id="padding" class="h1-conf-game">Configuración De La Partida</h1>
+                    </div>
+                    <div class="card-conf-game">
+                        <div class="p-choose-game">
+                            <p id="padding">Escoge tu modo de juego:</p>
+                        </div>
+                        <div class="container-img">
+                            <div class="two-column">
+                                <img src="./img/player_vs_player_icon.png" class="choose-game-img" alt="Player 1 VS Player 2">
+                            </div>
+                            <div class="two-column">
+                                <img id="plVScpu-img" src="./img/cpu.png" class="choose-game-img" alt="Player 1 VS Player 2">
+                            </div>
+                        </div>
+                        <div class="container-name-players">
+                            <div class="player-container">
+                                <p id="padding" class="name-player">Player 1 tu nombre: </p>
+                                <input type="text" name="name-player1" class="input-player" placeholder="Pon tu nombre...">
+                            </div>
+                        </div>
+                        <div class="container-name-players">
+                            <div class="player-container">
+                                <p id="padding" class="name-player">Player 2 tu nombre: </p>
+                                <input type="text" name="name-player2" class="input-player" placeholder="Pon tu nombre...">
+                            </div>
+                        </div>
+                        <div class="btn-create-game-container">
+                            <button id="btn-create-game" name="btn-create-game" class="btn-create-game">CREAR PARTIDA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
