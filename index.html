@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Contenedor Principal-->
-    <div class="main-container height-index">
+    <div id="root" class="main-container height-index">
         <!-- Contedor Con las tres Columnas-->
         <div class="content-container">
             <!-- Contenedor Central -->
@@ -78,10 +78,10 @@
                             </div>
                             <div class="container-img">
                                 <div class="two-column">
-                                    <img src="./img/player_vs_player_icon.png" class="choose-game-img" alt="Player 1 VS Player 2">
+                                    <img id="game_mode_players" src="./img/player_vs_player_icon.png" class="choose-game-img" alt="Player 1 VS Player 2">
                                 </div>
                                 <div class="two-column">
-                                    <img id="plVScpu-img" src="./img/cpu.png" class="choose-game-img" alt="Player 1 VS Player 2">
+                                    <img id="game_mode_cpu" src="./img/cpu.png" class="choose-game-img" alt="Player 1 VS Player 2">
                                 </div>
                             </div>
                         </div>
@@ -93,30 +93,30 @@
                                 <div class="player-icon">
                                     <div class="column-icon">
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
+                                            <img id="harry_poter_img" class="icono-player" src="./img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
                                         </div>
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/ron-wealy-icon.jpg" alt="">
+                                            <img id="ron-weasly_img" class="icono-player" src="./img/ron-wealy-icon.jpg" alt="">
                                         </div>
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/hermione-granger-icon.jpg" alt="">
+                                            <img id="hermione_granger_img" class="icono-player" src="./img/hermione-granger-icon.jpg" alt="">
                                         </div>
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/hermanos-wealy-icon.jpg" alt="">
+                                            <img id="hermanos_weasly" class="icono-player" src="./img/hermanos-wealy-icon.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="column-icon">
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
+                                            <img id="dumbledore_img" class="icono-player" src="./img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
                                         </div>
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/voldemort-icon.webp" alt="">
+                                            <img id="voldemort_img" class="icono-player" src="./img/voldemort-icon.webp" alt="">
                                         </div>
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/bellatriz-lestrange-icon.jpg" alt="">
+                                            <img id="bellatrix_img" class="icono-player" src="./img/bellatriz-lestrange-icon.jpg" alt="">
                                         </div>
                                         <div class="fila-icon">
-                                            <img id="" class="icono-player" src="./img/cpu.png" alt="">
+                                            <img id="severus_snape_img" class="icono-player" src="./img/severus-snape-icon.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="input-name-player">
@@ -125,11 +125,46 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="container-name-players">
+                        <div class="container-name-players">
                             <div class="player-container">
-                                
+                                <div class="player-name">
+                                    <p>Player 1 Configura Tu Perfil</p>
+                                </div>
+                                <div class="player-icon">
+                                    <div class="column-icon">
+                                        <div class="fila-icon">
+                                            <img id="harry_poter_img" class="icono-player" src="./img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
+                                        </div>
+                                        <div class="fila-icon">
+                                            <img id="ron-weasly_img" class="icono-player" src="./img/ron-wealy-icon.jpg" alt="">
+                                        </div>
+                                        <div class="fila-icon">
+                                            <img id="hermione_granger_img" class="icono-player" src="./img/hermione-granger-icon.jpg" alt="">
+                                        </div>
+                                        <div class="fila-icon">
+                                            <img id="hermanos_weasly" class="icono-player" src="./img/hermanos-wealy-icon.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="column-icon">
+                                        <div class="fila-icon">
+                                            <img id="dumbledore_img" class="icono-player" src="./img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
+                                        </div>
+                                        <div class="fila-icon">
+                                            <img id="voldemort_img" class="icono-player" src="./img/voldemort-icon.webp" alt="">
+                                        </div>
+                                        <div class="fila-icon">
+                                            <img id="bellatrix_img" class="icono-player" src="./img/bellatriz-lestrange-icon.jpg" alt="">
+                                        </div>
+                                        <div class="fila-icon">
+                                            <img id="severus_snape_img" class="icono-player" src="./img/severus-snape-icon.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="input-name-player">
+                                        <input type="text" id="name-player-2" class="input-name" placeholder="Introduce tu nombre...">
+                                    </div>
+                                </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="btn-create-game-container">
                             <button id="btn-create-game" name="btn-create-game" class="btn-create-game">CREAR PARTIDA</button>
                         </div>
