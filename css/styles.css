@@ -22,6 +22,14 @@
     height: 100%;
 }
 
+.active-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2%;
+    border: 2px solid gold;
+}
+
 /* Vista Principal */
 .main-container{
     background-image: url("../img/bg-harrypotter.jpg");
@@ -503,6 +511,14 @@
     border: 2px solid black;
 }
 
+.icono-player2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2%;
+    border: 2px solid black;
+}
+
 .input-name-player{
     display: flex;
     justify-content: center;
@@ -659,6 +675,12 @@
         width: 90px;
         height: 90px;
     }
+
+    .icono-player2{
+        width: 90px;
+        height: 90px;
+    }
+
 
     .input-name{
         height: 30px;
