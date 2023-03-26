@@ -55,7 +55,7 @@ const getWelcomeHTML = () => {
                         </div>
                     </div>
                     <div class="game-modes-desc">
-                        <div class="desc-title">
+                        <div id="green" class="desc-title">
                             Jugador vs Ordenador
                         </div>
                         <div class="description">

@@ -114,7 +114,7 @@
 
 .title-text-gm{
     font-family: 'harry_pregular';
-    color: white;
+    color: #ba7625;
     -webkit-text-stroke: 1px black;
     text-align: center;
     font-size: 3.3em;
@@ -135,13 +135,17 @@
 .desc-title{
     font-size: 2.5em;
     font-family: 'harry_pregular';
-    color: white;
+    color: #063f53;
     -webkit-text-stroke: 1px black;
     width: 94%;
     height: 100%;
     margin: 2%;
     text-align: center;
     background-color: rgba(206, 206, 206, 0.384);
+}
+
+#green{
+    color: #134731;
 }
 
 .description{
@@ -152,6 +156,7 @@
     margin: 2%;
     text-align: justify;
     color: white;
+    text-shadow: 4px 4px 4px black;
 }
 
 .how-to-play-container{
@@ -176,9 +181,10 @@
     height: 100%;
     margin: 5%;
     border: 3px solid white;
-    background: rgba(255,255,255,0.15);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    background: rgba(255,255,255,0.05);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    text-shadow: 4px 4px 4px black;
 }
 
 .how-to-play-title{
@@ -187,7 +193,7 @@
     margin: 2%;
     font-size: 2.5em;
     font-family: 'harry_pregular';
-    color: white;
+    color: #6c1a31;
     -webkit-text-stroke: 1px black;
     text-align: center;
     background-color: rgba(206, 206, 206, 0.384);
@@ -482,6 +488,7 @@
     margin: 2%;
     text-align: center;
     color: white;
+    text-shadow: 3px 3px 3px black;
 }
 
 .player-icon{
@@ -676,6 +683,11 @@
         height: 90px;
     }
 
+    .active-img{
+        width: 90px;
+        height: 90px;
+    }
+    
     .icono-player2{
         width: 90px;
         height: 90px;
