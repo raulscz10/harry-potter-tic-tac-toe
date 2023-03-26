@@ -47,15 +47,19 @@ A continuación os dejo una preview de como ha quedado el proyecto.
 
 Primera Página:
 
-<img src="./img/page1.JPG" alt="Página Principal" width="900" height="200">
+<img src="./img/page1.JPG" alt="Página Principal" width="200" height="400">
 
-Segunda Página (tablero).
+Segunda Página (Modal Box).
 
-<img src="./img/page2.JPG" alt="Página Tablero" width="900" height="200">
+<img src="./img/page2.JPG" alt="Página Tablero" width="200" height="400">
 
-Tercera Página (resultado).
+Tercera Página (Tablero).
 
-<img src="./img/page3.JPG" alt="Página Resultado" width="900" height="200">
+<img src="./img/page4.JPG" alt="Página Tablero" width="200" height="400">
+
+Cuarta Página (Resultado Ganador).
+
+<img src="./img/page3.JPG" alt="Página Resultado" width="200" height="400">
 
 ## Contacto 📧 <a name = "Contacto"></a>
 

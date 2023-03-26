@@ -73,19 +73,6 @@ const getWelcomeHTML = () => {
                           <h1 id="padding" class="h1-conf-game">Ajustes Partida</h1>
                       </div>
                       <div class="card-conf-game">
-                          <div class="first-container">
-                              <div class="p-choose-game">
-                                  <p id="padding">Escoge tu modo de juego:</p>
-                              </div>
-                              <div class="container-img">
-                                  <div class="two-column">
-                                      <img id="game_mode_players" src="../img/player_vs_player_icon.png" class="choose-game-img" alt="Player 1 VS Player 2">
-                                  </div>
-                                  <div class="two-column">
-                                      <img id="game_mode_cpu" src="../img/cpu.png" class="choose-game-img" alt="Player 1 VS Player 2">
-                                  </div>
-                              </div>
-                          </div>
                           <div class="container-name-players">
                               <div class="player-container">
                                   <div class="player-name">
