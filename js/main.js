@@ -29,7 +29,7 @@ const getWelcomeHTML = () => {
             <div class="right-container">
                 <div class="how-to-play-container">
                     <div class="houses-flags">
-                        <img class="img-houses-flags" src="./img/houses.png" alt="Imagen De Las Banderas De Las Casas">
+                        <img class="img-houses-flags" src="../img/houses.png" alt="Imagen De Las Banderas De Las Casas">
                     </div>
                     <div class="how-to-play-desc">
                         <div class="how-to-play-title">
@@ -79,10 +79,10 @@ const getWelcomeHTML = () => {
                               </div>
                               <div class="container-img">
                                   <div class="two-column">
-                                      <img id="game_mode_players" src="./img/player_vs_player_icon.png" class="choose-game-img" alt="Player 1 VS Player 2">
+                                      <img id="game_mode_players" src="../img/player_vs_player_icon.png" class="choose-game-img" alt="Player 1 VS Player 2">
                                   </div>
                                   <div class="two-column">
-                                      <img id="game_mode_cpu" src="./img/cpu.png" class="choose-game-img" alt="Player 1 VS Player 2">
+                                      <img id="game_mode_cpu" src="../img/cpu.png" class="choose-game-img" alt="Player 1 VS Player 2">
                                   </div>
                               </div>
                           </div>
@@ -94,30 +94,30 @@ const getWelcomeHTML = () => {
                                   <div class="player-icon">
                                       <div class="column-icon">
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
+                                              <img id="img_player1" class="icono-player" src="../img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
                                           </div>
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/ron-wealy-icon.jpg" alt="">
+                                              <img id="img_player1" class="icono-player" src="../img/ron-wealy-icon.jpg" alt="">
                                           </div>
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/hermione-granger-icon.jpg" alt="">
+                                              <img id="img_player1" class="icono-player" src="../img/hermione-granger-icon.jpg" alt="">
                                           </div>
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/hermanos-wealy-icon.jpg" alt="">
+                                              <img id="img_player1" class="icono-player" src="../img/hermanos-wealy-icon.jpg" alt="">
                                           </div>
                                       </div>
                                       <div class="column-icon">
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
+                                              <img id="img_player1" class="icono-player" src="../img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
                                           </div>
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/voldemort-icon.webp" alt="">
+                                              <img id="img_player1" class="icono-player" src="../img/voldemort-icon.webp" alt="">
                                           </div>
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/bellatriz-lestrange-icon.jpg" alt="">
+                                              <img id="img_player1" class="icono-player" src="../img/bellatriz-lestrange-icon.jpg" alt="">
                                           </div>
                                           <div class="fila-icon">
-                                              <img id="img_player1" class="icono-player" src="./img/severus-snape-icon.jpg" alt="">
+                                              <img id="img_player1" class="icono-player" src="../img/severus-snape-icon.jpg" alt="">
                                           </div>
                                       </div>
                                       <div class="input-name-player">
@@ -134,30 +134,30 @@ const getWelcomeHTML = () => {
                                   <div class="player-icon">
                                       <div class="column-icon">
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
+                                              <img id="img_player2" class="icono-player2" src="../img/harry-potter-icon.jpeg" alt="Imagen Icono Harry Potter">
                                           </div>
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/ron-wealy-icon.jpg" alt="">
+                                              <img id="img_player2" class="icono-player2" src="../img/ron-wealy-icon.jpg" alt="">
                                           </div>
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/hermione-granger-icon.jpg" alt="">
+                                              <img id="img_player2" class="icono-player2" src="../img/hermione-granger-icon.jpg" alt="">
                                           </div>
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/hermanos-wealy-icon.jpg" alt="">
+                                              <img id="img_player2" class="icono-player2" src="../img/hermanos-wealy-icon.jpg" alt="">
                                           </div>
                                       </div>
                                       <div class="column-icon">
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
+                                              <img id="img_player2" class="icono-player2" src="../img/dumbledore-icon.jpg" alt="Imagen Icono Harry Potter">
                                           </div>
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/voldemort-icon.webp" alt="">
+                                              <img id="img_player2" class="icono-player2" src="../img/voldemort-icon.webp" alt="">
                                           </div>
                                           <div fila-icon class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/bellatriz-lestrange-icon.jpg" alt="">
+                                              <img id="img_player2" class="icono-player2" src="../img/bellatriz-lestrange-icon.jpg" alt="">
                                           </div>
                                           <div id="fila-icon" class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="./img/severus-snape-icon.jpg" alt="">
+                                              <img id="img_player2" class="icono-player2" src="../img/severus-snape-icon.jpg" alt="">
                                           </div>
                                       </div>
                                       <div class="input-name-player">
@@ -194,6 +194,7 @@ const setWelcomeUiEventos = () => {
 
 //Llamando a las funciones que pintan el HTML
 const renderWelcome = () => {
+    root.classList.remove("height-vh");
     root.innerHTML = getWelcomeHTML();
 }
 

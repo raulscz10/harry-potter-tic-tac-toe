@@ -100,8 +100,6 @@ const flowGame = () => {
                 document.getElementById("border-img-p2").classList.add("active-play");
             }
             turno = !turno;
-            console.log(mapCasillas[element.id]);
-            console.log(mapCasillas);
             comprobarTirada(mapCasillas[element.id],mapCasillas)
         }
     }
