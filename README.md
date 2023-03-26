@@ -40,7 +40,7 @@ Este proyecto ha sido creando utilizando los siguientes lenguajes;
 
 ## Demo 👀 <a name = "Demo" ></a>
 
-Para visualizar la demo <a href="https://raulscz10.github.io/tic-tac-toe/" target="_blank"> clic aqui </a>.
+Para visualizar la demo <a href="https://raulscz10.github.io/harry-potter-tic-tac-toe/" target="_blank"> clic aqui </a>.
 ## Capturas de Pantalla  📸 <a name = "CapturasdePantalla"></a>
 
 A continuación os dejo una preview de como ha quedado el proyecto.
