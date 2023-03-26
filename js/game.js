@@ -100,6 +100,8 @@ const flowGame = () => {
                 document.getElementById("border-img-p2").classList.add("active-play");
             }
             turno = !turno;
+            console.log(mapCasillas[element.id]);
+            console.log(mapCasillas);
             comprobarTirada(mapCasillas[element.id],mapCasillas)
         }
     }
@@ -126,7 +128,7 @@ const comprobarTirada = (jugada, mapCasilla) => {
         }
     }
 
-    if(mapCasilla[0] == jugada && mapCasilla[1] == jugada && mapCasilla[2]){
+    if(mapCasilla[0] == jugada && mapCasilla[1] == jugada && mapCasilla[2] == jugada){
         comprobarGanador();
     }else if(mapCasilla[3] == jugada && mapCasilla[4] == jugada && mapCasilla[5] == jugada){
         comprobarGanador();
@@ -155,9 +157,3 @@ const comprobarTirada = (jugada, mapCasilla) => {
         setEmpateUiEventos();
     }
 }
-
-
-//Eventos
-const setGameUiEventos = () => {
-    const boxes = document.querySelectorAll(".columna-tablero");
-};

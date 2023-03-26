@@ -204,7 +204,6 @@ const insertarImagenes = () => {
 
 const modificarImagenesPlayer1 = (imgPlayer1) => {
     const imgP1 = imgPlayer1.srcElement.currentSrc;
-    console.log(imgP1);
     game.player1.image = imgP1;
 }
 
