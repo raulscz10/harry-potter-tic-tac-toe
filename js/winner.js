@@ -6,7 +6,7 @@ const getWinnerHTML = (game) =>{
                         <h1 id="info-result">!${game.winner} HA GANADO!</h1>
                     </div>
                     <div class="gif-container">
-                        <img id="img-giff" src="../img/hp-win.gif" class="giff-winner" alt="GIFF GANADOR O PERDEDOR">
+                        <img id="img-giff" src="img/hp-win.gif" class="giff-winner" alt="GIFF GANADOR O PERDEDOR">
                     </div>
                     <div class="btn-inicio-container">
                         <button id="btn-restart" class="btn-inicio">VOLVER INICIO</button>
@@ -24,7 +24,7 @@ const getEmpateHTML = () => {
                         <h1 id="info-result">!LA PARTIDA EMPATE!</h1>
                     </div>
                     <div class="gif-container">
-                        <img id="img-giff" src="../img/hp-lose.gif" class="giff-winner" alt="GIFF GANADOR O PERDEDOR">
+                        <img id="img-giff" src="img/hp-lose.gif" class="giff-winner" alt="GIFF GANADOR O PERDEDOR">
                     </div>
                     <div class="btn-inicio-container">
                         <button id="btn-restart" class="btn-inicio">VOLVER INICIO</button>

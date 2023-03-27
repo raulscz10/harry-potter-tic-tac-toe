@@ -89,12 +89,12 @@ const flowGame = () => {
     const clickCasilla = (element) =>{
         if(element.innerHTML = " "){
             if(turno){
-                element.innerHTML = `<img src="../img/ficha-rayo-hp.png" alt="Imagen Ficha Tablero" class="img-ficha">`;
+                element.innerHTML = `<img src="img/ficha-rayo-hp.png" alt="Imagen Ficha Tablero" class="img-ficha">`;
                 arrayWinner[element.id] = "X";
                 document.getElementById("border-img-p1").classList.add("active-play");
                 document.getElementById("border-img-p2").classList.remove("active-play");
             }else{
-                element.innerHTML = `<img src="../img/ficha-mago-tenebroso.png" alt="Imagen Ficha Tablero" class="img-ficha">`;
+                element.innerHTML = `<img src="img/ficha-mago-tenebroso.png" alt="Imagen Ficha Tablero" class="img-ficha">`;
                 arrayWinner[element.id] = "O";
                 document.getElementById("border-img-p1").classList.remove("active-play");
                 document.getElementById("border-img-p2").classList.add("active-play");
