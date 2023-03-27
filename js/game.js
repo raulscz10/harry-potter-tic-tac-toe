@@ -83,24 +83,24 @@ const renderGame = () => {
 
 const flowGame = () => {
     const htmlCasillas = document.querySelectorAll(".columna-tablero");
-    const mapCasillas = [];
+    const arrayWinner = [];
     let turno = true;
 
     const clickCasilla = (element) =>{
         if(element.innerHTML = " "){
             if(turno){
                 element.innerHTML = `<img src="../img/ficha-rayo-hp.png" alt="Imagen Ficha Tablero" class="img-ficha">`;
-                mapCasillas[element.id] = "X";
+                arrayWinner[element.id] = "X";
                 document.getElementById("border-img-p1").classList.add("active-play");
                 document.getElementById("border-img-p2").classList.remove("active-play");
             }else{
                 element.innerHTML = `<img src="../img/ficha-mago-tenebroso.png" alt="Imagen Ficha Tablero" class="img-ficha">`;
-                mapCasillas[element.id] = "O";
+                arrayWinner[element.id] = "O";
                 document.getElementById("border-img-p1").classList.remove("active-play");
                 document.getElementById("border-img-p2").classList.add("active-play");
             }
             turno = !turno;
-            comprobarTirada(mapCasillas[element.id],mapCasillas)
+            comprobarTirada(arrayWinner[element.id],arrayWinner)
         }
     }
 
@@ -112,7 +112,7 @@ const flowGame = () => {
     }
 }
 
-const comprobarTirada = (jugada, mapCasilla) => {
+const comprobarTirada = (jugada, arrayWinner) => {
 
     const comprobarGanador = () => {
         if(jugada == "X"){
@@ -126,31 +126,31 @@ const comprobarTirada = (jugada, mapCasilla) => {
         }
     }
 
-    if(mapCasilla[0] == jugada && mapCasilla[1] == jugada && mapCasilla[2] == jugada){
+    if(arrayWinner[0] == jugada && arrayWinner[1] == jugada && arrayWinner[2] == jugada){
         comprobarGanador();
-    }else if(mapCasilla[3] == jugada && mapCasilla[4] == jugada && mapCasilla[5] == jugada){
+    }else if(arrayWinner[3] == jugada && arrayWinner[4] == jugada && arrayWinner[5] == jugada){
         comprobarGanador();
-    }else if(mapCasilla[6] == jugada && mapCasilla[7] == jugada && mapCasilla[8] == jugada){
+    }else if(arrayWinner[6] == jugada && arrayWinner[7] == jugada && arrayWinner[8] == jugada){
         comprobarGanador();
-     }else if(mapCasilla[0] == jugada && mapCasilla[3] == jugada && mapCasilla[6] == jugada){
+     }else if(arrayWinner[0] == jugada && arrayWinner[3] == jugada && arrayWinner[6] == jugada){
         comprobarGanador();
-     }else if(mapCasilla[1] == jugada && mapCasilla[4] == jugada && mapCasilla[7] == jugada){
+     }else if(arrayWinner[1] == jugada && arrayWinner[4] == jugada && arrayWinner[7] == jugada){
         comprobarGanador();
-    }else if(mapCasilla[2] == jugada && mapCasilla[5] == jugada && mapCasilla[8] == jugada){
+    }else if(arrayWinner[2] == jugada && arrayWinner[5] == jugada && arrayWinner[8] == jugada){
         comprobarGanador();
-    }else if(mapCasilla[0] == jugada && mapCasilla[4] == jugada && mapCasilla[8] == jugada ){
+    }else if(arrayWinner[0] == jugada && arrayWinner[4] == jugada && arrayWinner[8] == jugada ){
         comprobarGanador();
-    }else if(mapCasilla[2] == jugada && mapCasilla[4] == jugada && mapCasilla[6] == jugada){
+    }else if(arrayWinner[2] == jugada && arrayWinner[4] == jugada && arrayWinner[6] == jugada){
         comprobarGanador();
-    } else if(mapCasilla[0] != undefined &&
-        mapCasilla[1] != undefined &&
-        mapCasilla[2] != undefined &&
-        mapCasilla[3] != undefined &&
-        mapCasilla[4] != undefined &&
-        mapCasilla[5] != undefined &&
-        mapCasilla[6] != undefined &&
-        mapCasilla[7] != undefined &&
-        mapCasilla[8] != undefined){
+    } else if(arrayWinner[0] != undefined &&
+        arrayWinner[1] != undefined &&
+        arrayWinner[2] != undefined &&
+        arrayWinner[3] != undefined &&
+        arrayWinner[4] != undefined &&
+        arrayWinner[5] != undefined &&
+        arrayWinner[6] != undefined &&
+        arrayWinner[7] != undefined &&
+        arrayWinner[8] != undefined){
         renderEmpate();
         setEmpateUiEventos();
     }
