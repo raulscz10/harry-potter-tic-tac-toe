@@ -144,7 +144,7 @@ const getWelcomeHTML = () => {
                                               <img id="img_player2" class="icono-player2" src="img/bellatriz-lestrange-icon.jpg" alt="">
                                           </div>
                                           <div id="fila-icon" class="fila-icon">
-                                              <img id="img_player2" class="icono-player2" src="gimg/severus-snape-icon.jpg" alt="">
+                                              <img id="img_player2" class="icono-player2" src="img/severus-snape-icon.jpg" alt="">
                                           </div>
                                       </div>
                                       <div class="input-name-player">
